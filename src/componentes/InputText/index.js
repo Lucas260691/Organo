@@ -1,8 +1,12 @@
-const InputText = () => {
+import './InputText.css'
+
+const InputText = (props) => {
     return (
-        <div className="campo-text" >
-            <label>Nome</label>
-            <input />
+        <div className="campo-texto" >
+            <label>
+                {props.label}
+            </label>
+            <input placeholder={props.placeholder}/>
         </div>
     )
 }
