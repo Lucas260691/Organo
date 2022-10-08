@@ -11,3 +11,7 @@
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
+
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./public/images/banner.png" />
+</h1>
