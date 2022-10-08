@@ -8,6 +8,7 @@ function App() {
 
   const aoColaboradorAdcionado = (colaborador) => {
     console.log(colaborador)
+    setColaboradores([...colaboradores, colaborador])
   }
   
   return (
