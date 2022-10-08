@@ -43,10 +43,9 @@ $ npm start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Html5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Figma](https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?node-id=134%3A143)
-
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
