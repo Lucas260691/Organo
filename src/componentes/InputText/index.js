@@ -2,7 +2,7 @@ import './InputText.css'
 
 const InputText = (props) => {
     
-    //const placeholderModificada = `${props.placeholder}...`
+    const placeholderModificada = `${props.placeholder}...`
 
     const aoDigitado = (evento) => {
         props.aoAlterado(evento.target.value)
@@ -18,7 +18,7 @@ const InputText = (props) => {
                 value={props.valor}
                 onChange={aoDigitado} 
                 required={props.obrigatorio} 
-                placeholder={props.placeholder}/>
+                placeholder={placeholderModificada}/>
         </div>
     )
 }
