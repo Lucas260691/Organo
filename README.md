@@ -39,13 +39,5 @@ $ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
-### 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 
