@@ -17,13 +17,14 @@ const Formulario = () => {
         'Inovação e Gestão'
     ]
 
-    const [nome, setNome] = useState()
-    const [cargo, setCargo] = useState()
-    const [imagem, setImagem] = useState()
+    const [nome, setNome] = useState('')
+    const [cargo, setCargo] = useState('')
+    const [imagem, setImagem] = useState('')
+    const [time, setTime] = useState('')
     
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log('Form foi submetido =>', nome, cargo, imagem)
+        console.log('Form foi submetido =>', nome, cargo, imagem, time)
     }
 
 
@@ -55,7 +56,9 @@ const Formulario = () => {
                 <ListaSuspensa  
                     obrigatorio={true} 
                     label ="Time" 
-                    itens={times} 
+                    itens={times}
+                    valor={time}
+                    aoAlterado={valor => setTime(valor)}
                 />
                 <Botao> 
                     Criar Card
