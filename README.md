@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Organo</h1>
+<h1 align="center">Organo</h1>
 
 ## Descrição do Projeto
 <p align="center"> O objetivo desse projeto é criar uma página de cadastro para pessoas funcionárias de uma empresa</p>
